@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 
 const Homepage = () => {
-  return <div>Homepage</div>;
+  return <div>Homepages</div>;
 };
 
 export default Homepage;
