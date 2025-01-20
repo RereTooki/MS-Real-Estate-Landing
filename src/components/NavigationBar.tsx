@@ -32,7 +32,7 @@ const NavigationBar = () => {
               Review
             </div>
           </div>
-          <div className=" flex justify-between items-center  text-sm text-white px-[2px] hover:px-[4px] py-[3px] hover:scale-[1.04] backdrop-opacity-10  bg-white/20 backdrop-invert  rounded-full border-2 border-transparent transition ease-in-out duration-500 delay-10 cursor-pointer drop-shadow-2xl">
+          <div className=" flex justify-between items-center  text-sm text-white px-[2px] hover:px-[4px] py-[3px] hover:scale-[1.04] backdrop-opacity-10  bg-white/20 backdrop-invert  rounded-full border-2 border-transparent transition ease-in-out duration-500 delay-10 cursor-pointer drop-shadow-[3px_6px_5px_rgba(0,0,0,0.35)]">
             <div className="rounded-full px-4 py-[7px] transition ease-in-out duration-500 delay-50">
               Contact Us
             </div>
