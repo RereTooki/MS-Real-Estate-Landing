@@ -3,6 +3,7 @@ import "../App.css";
 import introImg from "../assets/images/Intro.png";
 import curve from "../assets/icons/curve.svg";
 import avatars from "../assets/icons/avatars.svg";
+import pent from "../assets/images/pent.png";
 import NavigationBar from "./NavigationBar";
 
 const Landing = () => {
@@ -12,7 +13,7 @@ const Landing = () => {
         <div className="z-20" data-aoss="fade-down" data-aos-duration="700">
           <NavigationBar />
         </div>
-        <div className="nxl:sborder-4 border-black border-double px-2 h-[100vh] min-h-[404px]">
+        <div className="nxl:sborder-4 border-black border-double p-2 h-[100vh] min-h-[404px]">
           <img className="w-full h-full" src={introImg} alt="background-img" />
         </div>
         <div className="h-[85vh] sborder-4 border-black flex flex-col items-center justify-center text-[40px] absolute w-full top-[15vh] z-10">
@@ -27,6 +28,7 @@ const Landing = () => {
               Affordability
             </h1>
           </div>
+
           {/* <div className="border-4 border-black border-double overflsow-hidden  h-[34vh] w-[43vw] self-start mx-20 px-2 flex">
             <img
               className=" h-full  object-auto a"
@@ -40,7 +42,7 @@ const Landing = () => {
             <img
               className="h-full w-fusll object-cover"
               src={curve}
-              alt="background-img"
+              alt="curve/square"
             />
 
             {/* Text Elements */}
@@ -62,15 +64,27 @@ const Landing = () => {
                   <img
                     className="w-full h-full"
                     src={avatars}
-                    alt="background-img"
+                    alt="user avatars"
                   />
                 </div>
                 <div className="text-base text-[#BBBBBB]">100+ supervisors</div>
               </div>
             </div>
 
-            <div className="absolute bottom-4 right-8 text-black font-medium z-20">
-              Trending
+            <div className="absolute bottom-0 right-0 w-[38%] sborder-2 bg-[#FFFDF8] h-[80.8%] z-20 rounded-[30px]">
+              <div className="h-full w-full object-cover rounded-[30px] sborder-4 py-2  pr-2 bg-[#FFFDF8]">
+                <img className="w-full h-full" src={pent} alt="penthouse" />
+              </div>
+              <div className="absolute bottom-0 pb-6 pl-2 right-0 text-black font-medium z-20">
+                <div className="flex flex-col sborder-4 w-[90%] ">
+                  <p className="text-base text-white font-medium">
+                    Luxurious Penthouse
+                  </p>
+                  <p className="text-xs text-[#D6D3D3] font-medium">
+                    Stunning city views, high-end finishes, spacious layout....
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
