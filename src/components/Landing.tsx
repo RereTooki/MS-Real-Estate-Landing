@@ -2,27 +2,38 @@ import React from "react";
 import "../App.css";
 import introImg from "../assets/images/Intro.png";
 import curve from "../assets/icons/curve.svg";
+import curve2 from "../assets/icons/curve2.svg";
 import avatars from "../assets/icons/avatars.svg";
 import pent from "../assets/images/pent.png";
+import customer1 from "../assets/images/customer1.png";
+import tick from "../assets/icons/tick.svg";
 import NavigationBar from "./NavigationBar";
 
 const Landing = () => {
   return (
     <>
       <div className="h-[100vh] min-h-[404px] sborder-4 border-double border-black transition ease-in-out duration-500 delay-100 poppinsFont select-none">
-        <div className="z-20" data-aoss="fade-down" data-aos-duration="700">
+        <div className="z-20" data-aos="fade-down" data-aos-duration="1700">
           <NavigationBar />
         </div>
         <div className="nxl:sborder-4 border-black border-double p-2 h-[100vh] min-h-[404px]">
           <img className="w-full h-full" src={introImg} alt="background-img" />
         </div>
         <div className="h-[85vh] sborder-4 border-black flex flex-col items-center justify-center text-[40px] absolute w-full top-[15vh] z-10">
-          <div className=" flex justify-between items-center gap-4 text-sm text-white px-[2px] hover:px-[4px] py-[3px] hsover:scale-[1.04] backdrop-opacity-10 hover:backdrop-opacity-95  bg-white/40 hover:ng-white/10 backdrop-invert  rounded-full border-2 border-transparent transition ease-in-out duration-500 delay-10 cursor-pointer drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]">
+          <div
+            className=" flex justify-between items-center gap-4 text-sm text-white px-[2px] hover:px-[4px] py-[3px] hsover:scale-[1.04] backdrop-opacity-10 hover:backdrop-opacity-95  bg-white/40 hover:bg-white/10 backdrop-invert  rounded-full border-2 border-transparent transition ease-in-out duration-500 delay-10 cursor-pointer drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
+            data-aos="zoom-in"
+            data-aos-duration="1700"
+          >
             <div className="hovser:border-2 border-transparent rounded-full px-6 py-[7px] hover:text-black transition ease-in-out duration-500 delay-50 font-semibold ">
               Experience Real Estate Excellence
             </div>
           </div>
-          <div className="sborder-4 max-w-[80%]">
+          <div
+            className="sborder-4 max-w-[80%]"
+            data-aos="zoom-in"
+            data-aos-duration="1700"
+          >
             <h1 className="loraFont font-medium text-[5.5vw] text-center text-white leading-[102px]">
               Where <span className="font-normal italic">Luxury</span> Meets
               Affordability
@@ -37,7 +48,11 @@ const Landing = () => {
             />
             <div className="flex sborder-4 text-black z-20">Popular</div>
           </div> */}
-          <div className="sborder-4 border-black border-double overflow-hidden h-[34vh] w-[43vw] self-start mx-20 px-2 relative">
+          <div
+            className="sborder-4 border-black border-double overflow-hidden h-[34vh] w-[43vw] self-start mx-20 px-2 relative  transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04]"
+            data-aos="fade-right"
+            data-aos-duration="1700"
+          >
             {/* SVG Background */}
             <img
               className="h-full w-fusll object-cover"
@@ -87,9 +102,81 @@ const Landing = () => {
               </div>
             </div>
           </div>
+          <div
+            className="sborder-4 border-white border-double overflow-hidden h-[33vh] w-[20vw] mx-20  absolute right-0 top-[45%] hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer"
+            data-aos="fade-left"
+            data-aos-duration="1700"
+          >
+            {/* SVG Background */}
+            <img
+              className="h-[33vh] w-[20vw] rounded-[28px] object-cover"
+              src={curve2}
+              alt="curve/square"
+            />
+
+            {/* Text Elements */}
+
+            <div className="flex flex-col gap-2 sborder-4 absolute top-2 w-full z-20">
+              <div className="flex flex-row gap-4">
+                <div className="sborder-2 ml-2 h-[52px] w-[52px]">
+                  <img
+                    className="w-full h-full"
+                    src={customer1}
+                    alt="background-img"
+                  />
+                </div>
+                <div className="text-black text-base font-medium z-20 sborder-2 w-[54%] self-center">
+                  Customer gets notification
+                </div>
+              </div>
+              <div className="flex flex-row gap-4 ">
+                <div className="sborder-2 ml-10 h-[24px] w-[24px]">
+                  <img
+                    className="w-full h-full"
+                    src={tick}
+                    alt="background-img"
+                  />
+                </div>
+                <div className="text-black text-sm font-normal z-20 sborder-2 w-[54%] self-center">
+                  Promotions and Discounts
+                </div>
+              </div>
+              <div className="flex flex-row gap-4 sborder-4">
+                <div className="sborder-2 ml-10 h-[24px] w-[24px]">
+                  <img
+                    className="w-full h-full"
+                    src={tick}
+                    alt="background-img"
+                  />
+                </div>
+                <div className="text-black text-sm font-normal z-20 sborder-2 w-[54%]  self-center">
+                  New Listings
+                </div>
+              </div>
+
+              <div className="flex flex-row gap-4 ">
+                <div className="sborder-2 ml-10 h-[24px] w-[24px]">
+                  <img
+                    className="w-full h-full"
+                    src={tick}
+                    alt="background-img"
+                  />
+                </div>
+                <div className="text-black text-sm font-normal z-20 sborder-2 w-[54%] self-center">
+                  Appointment Reminders
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="absolute bottom-6 right-0 mr-20 sborder-4 border-white border-double text-black font-medium text-sm text-white w-[20vw] py-[12px] rounded-full text-center bg-black z-20 ibmFont hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer hover:backdrop-opacity-95   hover:bg-black/10 backdrop-invert hover:text-black "
+            data-aos="zoom-in"
+            data-aos-duration="1700"
+          >
+            Get Started
+          </div>
         </div>
       </div>
-      s
     </>
   );
 };

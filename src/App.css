@@ -42,3 +42,18 @@
   width: 100vw; /* Full screen width */
   padding: 2px;
 }
+
+.w3-animate-bottom {
+  position: relative;
+  animation: animatebottom 1.4s;
+}
+@keyframes animatebottom {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
