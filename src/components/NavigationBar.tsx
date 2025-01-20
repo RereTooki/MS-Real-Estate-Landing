@@ -6,7 +6,7 @@ import "../App.css";
 const NavigationBar = () => {
   return (
     <>
-      <div className="w-full sborder-4 border-black px-20 absolute top-[3.5vh] ">
+      <div className="w-full mx-2 sborder-4 border-black px-20 absolute top-[3.5vh] ">
         <div className="flex justify-between s">
           <div className="sborder-4 ">
             <img
