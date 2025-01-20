@@ -1,6 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
+import { Analytics } from "@vercel/analytics/react";
 
 import Homepage from "./components/Homepage";
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <>
       <div className="">
         <Homepage />
+        <Analytics />
       </div>
     </>
   );
