@@ -32,8 +32,10 @@ const Discover = () => {
           <div className="sborder-4 border-black w-[100%] text-white absolute bottom-4 left-0 px-4 hover:scale-[1.02] transition ease-in-out duration-500 delay-10 cursor-pointer">
             <div className="flex flex-col gap-2">
               <div className="flex flex-col">
-                <h5 className="font-medium text-2xl">Modern Family Home</h5>
-                <h6 className="italic font-medium text-lg">$750,000</h6>
+                <h5 className="font-medium text-2xl ibmFont">
+                  Modern Family Home
+                </h5>
+                <h6 className="italic font-medium text-lg ibmFont">$750,000</h6>
               </div>
               <div className="flex items-center gap-4 font-normal text-xs">
                 <div className="borsder-2 h-[15px] w-[12px] object-cover">
@@ -43,13 +45,13 @@ const Discover = () => {
                     alt="Location icon"
                   />
                 </div>
-                <p className="text-white/80">
+                <p className="text-white/80 ibmFont">
                   Jalan Diponegoro No. 15, Semarang, Central Java 50241
                 </p>
               </div>
               <div className="flex flex-row sborder-4 items-center justify-between mt-2">
                 <div className="sborder-2 flex justify-between w-1/2">
-                  <p className="font-medium text-[8px] text-white/70">
+                  <p className="font-medium text-[8px] text-white/70 ibmFont">
                     @budi.santoso
                   </p>
                   <div className="flex gap-2">
@@ -61,7 +63,7 @@ const Discover = () => {
                         alt="A clock"
                       />
                     </div>
-                    <p className="text-[#D3D3D3] italic font-medium text-[8px]">
+                    <p className="text-[#D3D3D3] italic font-medium text-[8px] ibmFont">
                       9:00 AM
                     </p>
                   </div>
@@ -95,8 +97,8 @@ const Discover = () => {
               <p>@budi.santoso</p>
             </div>
             <div className="text-[#010101] text-lg font-medium z-20 sborder-2 self-center ibmFont text-center flex flex-col gap-0s">
-              <p>Budi Santoso</p>
-              <p className="text-[8px] italic leading-snug">
+              <p className="ibmFont">Budi Santoso</p>
+              <p className="text-[8px] italic leading-snug ibmFont">
                 budisantoso24@email.com
               </p>
             </div>
@@ -131,8 +133,8 @@ const Discover = () => {
                 />
               </div>
               <div className="flex flex-col">
-                <p className="italic text-[8px]">Size</p>
-                <p className="italic text-xs">200 m²</p>
+                <p className="italic text-[8px] ibmFont">Size</p>
+                <p className="italic text-xs ibmFont">200 m²</p>
               </div>
             </div>
             <div className="flex border-black sborder-4 w-full justify-around">
@@ -141,10 +143,10 @@ const Discover = () => {
                   <img className="w-full h-full" src={bathtub} alt="bathtub" />
                 </div>
                 <div className="flex flex-col">
-                  <p className="italic text-[8px] font-medium text-center">
+                  <p className="italic text-[8px] font-medium text-center ibmFont">
                     Bathroom
                   </p>
-                  <p className="italic text-xs font-medium">2 Rooms</p>
+                  <p className="italic text-xs font-medium ibmFont">2 Rooms</p>
                 </div>
               </div>
               <div className="flex flex-col sborder-4 items-center gap-4 hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer">
@@ -152,10 +154,10 @@ const Discover = () => {
                   <img className="w-full h-full" src={bedroom} alt="bathtub" />
                 </div>
                 <div className="flex flex-col">
-                  <p className="italic text-[8px] font-medium text-center">
+                  <p className="italic text-[8px] font-medium text-center ibmFont">
                     Bedroom
                   </p>
-                  <p className="italic text-xs font-medium">3 Rooms</p>
+                  <p className="italic text-xs font-medium ibmFont">3 Rooms</p>
                 </div>
               </div>
             </div>
@@ -170,7 +172,7 @@ const Discover = () => {
             <h3 className="ibmFont text-4xl font-medium leading-[47px] pb-4">
               Discover Your Next Chapter in the Perfect Home
             </h3>
-            <p className="font-normal text-xs ibmFont tracking-wider text-justify leading-[18px]">
+            <p className="font-normal text-xs ibmFont tracking-wider text-justify leading-[18px] ibmFont">
               Finding the right home is more than just a transaction; it’s the
               start of a new chapter in your life. Whether you’re upgrading,
               downsizing, or finding your very first place, our curated
@@ -191,10 +193,12 @@ const Discover = () => {
               <div className="sborder-4 border-black w-[100%] text-white absolute bottom-4 left-0 px-4 hover:scale-[1.02] transition ease-in-out duration-500 delay-10 cursor-pointer">
                 <div className="flex flex-col gap-2">
                   <div className="flex flex-col">
-                    <h5 className="font-medium text-xs leading-loose">
+                    <h5 className="font-medium text-xs leading-loose ibmFont">
                       Luxury Villa with Pool
                     </h5>
-                    <h6 className="font-medium text-[10px]">$220,000</h6>
+                    <h6 className="font-medium text-[10px] ibmFont">
+                      $220,000
+                    </h6>
                   </div>
                   <div className="flex items-center gap-4 font-normal text-[8px]">
                     <div className="borsder-2 h-[10px] w-[8px] object-cover">
@@ -204,12 +208,12 @@ const Discover = () => {
                         alt="Location icon"
                       />
                     </div>
-                    <p className="truncate ... text-white/80">
+                    <p className="truncate ... text-white/80 ibmFont">
                       Jalan Gajah Mada No. 22, Ungaran, Central Java 50512
                     </p>
                   </div>
                   <div className="flex flex-row sborder-4 items-center justify-between">
-                    <p className="font-medium text-[8px] text-white/70">
+                    <p className="font-medium text-[8px] text-white/70 ibmFont">
                       @anisa.pratiwi
                     </p>
 
@@ -222,7 +226,7 @@ const Discover = () => {
                           alt="A clock"
                         />
                       </div>
-                      <p className="text-[#D3D3D3] italic font-medium text-[8px]">
+                      <p className="text-[#D3D3D3] italic font-medium text-[8px] ibmFont">
                         9:15 AM
                       </p>
                     </div>
@@ -243,10 +247,12 @@ const Discover = () => {
               <div className="sborder-4 border-black w-[100%] text-white absolute bottom-4 left-0 px-4 hover:scale-[1.02] transition ease-in-out duration-500 delay-10 cursor-pointer">
                 <div className="flex flex-col gap-2">
                   <div className="flex flex-col">
-                    <h5 className="font-medium text-xs leading-loose">
+                    <h5 className="font-medium text-xs leading-loose ibmFont">
                       Spacious Land for Development
                     </h5>
-                    <h6 className="font-medium text-[10px]">$350,000</h6>
+                    <h6 className="font-medium text-[10px] ibmFont">
+                      $350,000
+                    </h6>
                   </div>
                   <div className="flex items-center gap-4 font-normal text-[8px]">
                     <div className="borsder-2 h-[10px] w-[8px] object-cover">
@@ -256,12 +262,12 @@ const Discover = () => {
                         alt="Location icon"
                       />
                     </div>
-                    <p className="truncate ... text-white/80">
+                    <p className="truncate ... text-white/80 ibmFont">
                       Jalan Siliwangi No. 10, Tegal, Central Java 52115
                     </p>
                   </div>
                   <div className="flex flex-row sborder-4 items-center justify-between">
-                    <p className="font-medium text-[8px] text-white/70">
+                    <p className="font-medium text-[8px] text-white/70 ibmFont">
                       @dedi.kurniawan
                     </p>
 
@@ -274,7 +280,7 @@ const Discover = () => {
                           alt="A clock"
                         />
                       </div>
-                      <p className="text-[#D3D3D3] italic font-medium text-[8px]">
+                      <p className="text-[#D3D3D3] italic font-medium text-[8px] ibmFont">
                         10:00 AM
                       </p>
                     </div>

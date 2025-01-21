@@ -173,7 +173,9 @@ const Landing = () => {
             data-aos="zoom-in"
             data-aos-duration="1700"
           >
-            Get Started
+            <p className="transition ease-in-out duration-500 delay-10">
+              Get Started
+            </p>
           </div>
         </div>
       </div>
