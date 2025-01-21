@@ -29,7 +29,7 @@ const Discover = () => {
               alt="background-img"
             />
           </div>
-          <div className="border-4 border-black w-[100%] text-white absolute bottom-4 left-0 px-4 hover:scale-[1.02] transition ease-in-out duration-500 delay-10 cursor-pointer">
+          <div className="sborder-4 border-black w-[100%] text-white absolute bottom-4 left-0 px-4 hover:scale-[1.02] transition ease-in-out duration-500 delay-10 cursor-pointer">
             <div className="flex flex-col gap-2">
               <div className="flex flex-col">
                 <h5 className="font-medium text-2xl">Modern Family Home</h5>
