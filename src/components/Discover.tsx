@@ -9,24 +9,70 @@ import call from "../assets/icons/call.svg";
 import width from "../assets/icons/width.svg";
 import bathtub from "../assets/icons/bathtub.svg";
 import bedroom from "../assets/icons/bedroom.svg";
+import ellipses from "../assets/icons/eliipses.svg";
+import location from "../assets/icons/location.svg";
+import clock from "../assets/icons/clock.svg";
 
 const Discover = () => {
   return (
     <>
       <div className="h-[100vh] w-full border-4 border-black border-double px-4 py-14 flex flex-row justify-between select-none">
-        <div className="border-4 w-[38vw]  rounded-[24px]">
-          <div className="">
+        <div className="wborder-4 w-[38vw] rounded-[24px] ibmFont">
+          <div className=" hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer">
             <img
               className="w-full h-full rounded-[24px]"
               src={discover1}
               alt="background-img"
             />
           </div>
+          <div className=" text-black z-40 border-4 border-black w-[100%]">
+            <div className="flex flex-col gap-2">
+              <div className="flex flex-col">
+                <h5 className="font-medium text-2xl">Modern Family Home</h5>
+                <h6 className="italic font-medium text-lg">$750,000</h6>
+              </div>
+              <div className="flex items-center gap-4 font-normal text-xs text-[#fff]s">
+                <div className="borsder-2 h-[15px] w-[12px] object-cover">
+                  <img
+                    className="w-full h-full object-cover"
+                    src={location}
+                    alt="Location icon"
+                  />
+                </div>
+                <p>Jalan Diponegoro No. 15, Semarang, Central Java 50241</p>
+              </div>
+              <div className="flex flex-row sborder-4 items-center justify-between mt-2">
+                <div className="sborder-2 flex justify-between w-1/2 text-[#fff]s">
+                  <p className="font-medium text-[8px]">@budi.santoso</p>
+                  <div className="flex gap-2">
+                    {" "}
+                    <div className="borsder-2 h-[10px] w-[10px] object-cover">
+                      <img
+                        className="w-full h-full object-cover"
+                        src={clock}
+                        alt="A clock"
+                      />
+                    </div>
+                    <p className="text-[#D3D3D3] italic font-medium text-[8px]">
+                      9:00 AM
+                    </p>
+                  </div>
+                </div>
+                <div className="borsder-2 h-[15px] w-[15px] object-cover mr-4">
+                  <img
+                    className="w-full h-full object-cover"
+                    src={ellipses}
+                    alt="Ellipses"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="sborder-4 border-black flex flex-col justify-between ibmFont">
           {" "}
           <div className="flex flex-col items-center gap-2 sborder-4 border-dashed">
-            <div className="sborder-2 h-[60px] w-[60px] rounded-full">
+            <div className="sborder-2 h-[60px] w-[60px] rounded-full hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer">
               <img
                 className="w-full h-full rounded-full"
                 src={customer2}
@@ -42,7 +88,7 @@ const Discover = () => {
                 budisantoso24@email.com
               </p>
             </div>
-            <div className="border-[0.5px] border-[#010101] w-[15vw] text-xs rounded-[24px] flex items-center justify-center py-2 gap-4 mt-2">
+            <div className="border-[0.5px] border-[#010101] w-[15vw] text-xs rounded-[24px] flex items-center justify-center py-2 gap-4 mt-2 hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer">
               <div className="borsder-2 h-[20px] w-[20px] object-cover">
                 <img
                   className="w-full h-full object-cover"
@@ -52,7 +98,7 @@ const Discover = () => {
               </div>
               <p className="ibmFont font-medium text-xs">Message</p>
             </div>
-            <div className="border-[0.5px] border-[#010101] w-[15vw] text-xs rounded-[24px] flex items-center justify-center py-2 gap-4 mt-2">
+            <div className="border-[0.5px] border-[#010101] w-[15vw] text-xs rounded-[24px] flex items-center justify-center py-2 gap-4 mt-2 hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer">
               <div className="borsder-2 h-[20px] w-[20px] object-cover">
                 <img
                   className="w-full h-full object-cover"
@@ -117,14 +163,14 @@ const Discover = () => {
             </p>
           </div>
           <div className="flex flex-row bsorder-4 justify-between">
-            <div className="w-[48%]">
+            <div className="w-[48%] hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer">
               <img
                 className="w-full h-full rounded-[24px]"
                 src={discover2}
                 alt="background-img"
               />
             </div>
-            <div className="w-[48%]">
+            <div className="w-[48%] hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer">
               <img
                 className="w-full h-full rounded-[24px]"
                 src={discover3}
