@@ -4,7 +4,7 @@ import Landing from "./Landing";
 import Discover from "./Discover";
 import Explore from "./Explore";
 import Services from "./Services";
-import ReServices from "./ReServices";
+import AboutUs from "./AboutUs";
 
 const Homepage = () => {
   return (
@@ -22,7 +22,7 @@ const Homepage = () => {
         <Services />
       </div>
       <div className="">
-        <ReServices />
+        <AboutUs />
       </div>
     </>
   );

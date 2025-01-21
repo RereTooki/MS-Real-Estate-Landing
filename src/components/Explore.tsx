@@ -7,6 +7,7 @@ import clock from "../assets/icons/clock.svg";
 import zoomin from "../assets/icons/zoomIn.svg";
 import zoomout from "../assets/icons/zoomOut.svg";
 import navigate from "../assets/icons/navigate.svg";
+import navigate2 from "../assets/icons/navigate2.svg";
 import "../App.css";
 
 const Explore = () => {
@@ -40,33 +41,34 @@ const Explore = () => {
               </p>
             </div>
             <div className="sborder-4 border-double flex flex-col gasp-[15px] gap-4 justify-between">
-              <div className="sborder-2 flex flex-col items-center gap-2">
+              <div className="sborder-2 flex flex-col items-center gap-2 hover:scale-[1.04] transition ease-in-out duration-500 delay-10">
                 <div className="h-[18px] w-[18px]">
-                  <img
-                    className="w-full h-full"
-                    src={zoomin}
-                    alt="background-img"
-                  />
+                  <img className="w-full h-full" src={zoomin} alt="zoom" />
                 </div>
                 <p className="ibmFont font-medium text-xs">Zoom In</p>
               </div>
-              <div className="sborder-2 flex flex-col items-center gap-2">
-                <div className="h-[18px] w-[18px]">
-                  <img
-                    className="w-full h-full"
-                    src={navigate}
-                    alt="background-img"
-                  />
+              <div className="flex flex-col items-center gap-2 hover:scale-[1.04] transition ease-in-out duration-500 delay-10">
+                <div>
+                  <div className="h-[18px] w-[18px]">
+                    <img
+                      className="w-full h-full"
+                      src={navigate2}
+                      alt="navigate icon"
+                    />
+                  </div>
+                  <div className="h-[18px] w-[18px]">
+                    <img
+                      className="w-full h-full"
+                      src={navigate}
+                      alt="navigate icon"
+                    />
+                  </div>
                 </div>
                 <p className="ibmFont font-medium text-xs">Navigate</p>
               </div>
-              <div className="sborder-2 flex flex-col items-center gap-2">
+              <div className="sborder-2 flex flex-col items-center gap-2 hover:scale-[1.04] transition ease-in-out duration-500 delay-10">
                 <div className="h-[18px] w-[18px]">
-                  <img
-                    className="w-full h-full"
-                    src={zoomout}
-                    alt="background-img"
-                  />
+                  <img className="w-full h-full" src={zoomout} alt="zoom" />
                 </div>
                 <p className="ibmFont font-medium text-xs">Zoom Out</p>
               </div>

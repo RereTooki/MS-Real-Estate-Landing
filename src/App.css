@@ -110,10 +110,10 @@
 
 /*Scroll Stand By Me*/
 ::-webkit-scrollbar-track {
-  background: rgb(234, 223, 232);
+  background: #fffdf8;
   border-radius: 0px 0px 0px 0px;
 }
 ::-webkit-scrollbar-thumb {
   background-color: rgb(38, 49, 57); /* color of the scroll thumb  */
-  border-color: rgb(234, 223, 232);
+  border-color: #fffdf8;
 }
