@@ -172,7 +172,7 @@ const Discover = () => {
             <h3 className="ibmFont text-4xl font-medium leading-[47px] pb-4">
               Discover Your Next Chapter in the Perfect Home
             </h3>
-            <p className="font-normal text-xs ibmFont tracking-wider text-justify leading-[18px] ibmFont">
+            <p className="font-normal text-xs tracking-wider text-justify leading-[18px] ibmFont">
               Finding the right home is more than just a transaction; it’s the
               start of a new chapter in your life. Whether you’re upgrading,
               downsizing, or finding your very first place, our curated
