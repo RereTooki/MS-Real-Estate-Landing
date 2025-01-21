@@ -25,7 +25,7 @@ const Services = () => {
         </div>
         <div
           className="sborder-4 border-double flex flex-row w-full justify-between"
-          data-aos="zoom-up"
+          data-aos="fade-up"
           data-aos-duration="1700"
         >
           <div className="border-[1px] border-[#A3865C] w-[22%] h-[40vh] rounded-[20px]  bg-[#A3865C] flex flex-col items-center justify-center overflow-hidden">
