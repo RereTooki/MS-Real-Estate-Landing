@@ -77,14 +77,16 @@
   min-width: 12px;
 }
 .scroll::-webkit-scrollbar-track {
-  border-radius: 0px 20px 20px 0px; /* color of the tracking area */
+  border-radius: 0px 30px 30px 0px; /* color of the tracking area */
+  background: #ffeacb;
 }
 
 .scroll::-webkit-scrollbar-thumb {
   border-width: 0.5vw;
   border-style: solid;
+  border-color: #ffeacb;
 
-  border-radius: 6px; /* roundness of the scroll thumb */
+  border-radius: 30px 30px 30px 30px; /* roundness of the scroll thumb */
   /* creates padding around scroll thumb */
 }
 
@@ -128,4 +130,19 @@
 ::-webkit-scrollbar-thumb {
   background-color: rgb(38, 49, 57); /* color of the scroll thumb  */
   border-color: #fffdf8;
+}
+
+.quoteBG {
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+
+.quoteBG1 {
+  background-image: linear-gradient(
+      90deg,
+      rgba(83, 83, 69, 0.56) 35%,
+      rgba(83, 83, 69, 0.5608368347338936) 100%
+    ),
+    url(../src/assets/images/aboutUs.png);
 }
