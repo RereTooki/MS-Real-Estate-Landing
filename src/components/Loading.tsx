@@ -26,9 +26,9 @@ const Loading = () => {
               Affordability */}
             </h1>
           </div>
-          <div className="flex gap-4">
+          <div className="flex gap-4 ">
+            <div className="loader animate-spin rounded-xl border-4 border-[#392C19]/40 border-4 h-8 w-8"></div>
             <div className="loader animate-spin rounded-xl border-4 border-[#392C19]/60 border-4 h-8 w-8"></div>
-            <div className="loader animate-spin rounded-xl border-4 border-[#392C19]/70 border-4 h-8 w-8"></div>
             <div className="loader animate-spin rounded-xl border-4 border-[#392C19]/80 border-4 h-8 w-8"></div>
           </div>
         </div>
