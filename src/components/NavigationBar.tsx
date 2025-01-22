@@ -3,7 +3,28 @@ import logo from "../assets/icons/MS.svg";
 import arrow from "../assets/icons/arrow.svg";
 import "../App.css";
 
-const NavigationBar = () => {
+// Define types for props
+type NavigationBarProps = {
+  introRef: React.RefObject<HTMLDivElement>;
+  productRef: React.RefObject<HTMLDivElement>;
+  servicesRef: React.RefObject<HTMLDivElement>;
+  aboutRef: React.RefObject<HTMLDivElement>;
+  reviewRef: React.RefObject<HTMLDivElement>;
+};
+
+const NavigationBar: React.FC<NavigationBarProps> = ({
+  introRef,
+  productRef,
+  servicesRef,
+  aboutRef,
+  reviewRef,
+}) => {
+  // Function to scroll to a section
+  const scrollToSection = (ref: React.RefObject<HTMLDivElement>) => {
+    if (ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <>
       <div className="w-full m-2 sborder-4 border-black px-20 absolutes fixed top-[3.5vh] z-[100] ">
@@ -31,19 +52,34 @@ const NavigationBar = () => {
             {/* <div className="border-2 border-white bg-white backdrop-invert rounded-full text-black px-6 py-[7px] hover:scale-[1.04] transition ease-in-out duration-500 delay-50 ">
               Home
             </div> */}
-            <div className="shover:border-2 border-transparent rounded-full hover:text-blacks hover:backdrop-inverts hover:underline underline-offset-4 decoration-dotted px-6 py-[7px] hover:scale-[1.08] transition ease-in-out duration-500 delay-50">
+            <div
+              className="shover:border-2 border-transparent rounded-full hover:text-blacks hover:backdrop-inverts hover:underline underline-offset-4 decoration-dotted px-6 py-[7px] hover:scale-[1.08] transition ease-in-out duration-500 delay-50"
+              onClick={() => scrollToSection(introRef)}
+            >
               Home
             </div>{" "}
-            <div className="shover:border-2 border-transparent rounded-full hover:text-blacks hover:backdrop-inverts hover:underline underline-offset-4 decoration-dotted px-6 py-[7px] hover:scale-[1.08] transition ease-in-out duration-500 delay-50">
+            <div
+              className="shover:border-2 border-transparent rounded-full hover:text-blacks hover:backdrop-inverts hover:underline underline-offset-4 decoration-dotted px-6 py-[7px] hover:scale-[1.08] transition ease-in-out duration-500 delay-50"
+              onClick={() => scrollToSection(productRef)}
+            >
               Products
             </div>
-            <div className="shover:border-2 border-transparent rounded-full hover:text-blacks hover:backdrop-inverts hover:underline underline-offset-4 decoration-dotted px-6 py-[7px] hover:scale-[1.08] transition ease-in-out duration-500 delay-50">
+            <div
+              className="shover:border-2 border-transparent rounded-full hover:text-blacks hover:backdrop-inverts hover:underline underline-offset-4 decoration-dotted px-6 py-[7px] hover:scale-[1.08] transition ease-in-out duration-500 delay-50"
+              onClick={() => scrollToSection(servicesRef)}
+            >
               Services
             </div>
-            <div className="shover:border-2 border-transparent rounded-full hover:text-blacks hover:backdrop-inverts hover:underline underline-offset-4 decoration-dotted px-6 py-[7px] hover:scale-[1.08] transition ease-in-out duration-500 delay-50">
+            <div
+              className="shover:border-2 border-transparent rounded-full hover:text-blacks hover:backdrop-inverts hover:underline underline-offset-4 decoration-dotted px-6 py-[7px] hover:scale-[1.08] transition ease-in-out duration-500 delay-50"
+              onClick={() => scrollToSection(aboutRef)}
+            >
               About
             </div>
-            <div className="shover:border-2 border-transparent rounded-full hover:text-blacks hover:backdrop-inverts hover:underline underline-offset-4 decoration-dotted px-6 py-[7px] hover:scale-[1.08] transition ease-in-out duration-500 delay-50">
+            <div
+              className="shover:border-2 border-transparent rounded-full hover:text-blacks hover:backdrop-inverts hover:underline underline-offset-4 decoration-dotted px-6 py-[7px] hover:scale-[1.08] transition ease-in-out duration-500 delay-50"
+              onClick={() => scrollToSection(reviewRef)}
+            >
               Review
             </div>
           </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../App.css";
 import introImg from "../assets/images/Intro.png";
 import curve from "../assets/icons/curve.svg";
@@ -10,6 +10,18 @@ import tick from "../assets/icons/tick.svg";
 import NavigationBar from "./NavigationBar";
 
 const Landing = () => {
+  // Create refs for each section
+  const introRef = useRef<HTMLDivElement>(null);
+  const productRef = useRef<HTMLDivElement>(null);
+  const servicesRef = useRef<HTMLDivElement>(null);
+  const aboutRef = useRef<HTMLDivElement>(null);
+  const reviewRef = useRef<HTMLDivElement>(null);
+  // Function to scroll to a section
+  const scrollToSection = (ref: React.RefObject<HTMLDivElement>) => {
+    if (ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <>
       <div className="h-[100vh] min-h-[404px] sborder-4 border-double border-black transition ease-in-out duration-500 delay-100 poppinsFont select-none w-auto">
@@ -18,7 +30,13 @@ const Landing = () => {
           data-aos="fade-down"
           data-aos-duration="1700"
         >
-          <NavigationBar />
+          <NavigationBar
+            introRef={introRef}
+            productRef={productRef}
+            servicesRef={servicesRef}
+            aboutRef={aboutRef}
+            reviewRef={reviewRef}
+          />
           {/* ss */}
         </div>
         <div

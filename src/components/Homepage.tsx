@@ -12,6 +12,7 @@ import image1 from "../assets/images/pent.png";
 
 const Homepage = () => {
   // Create refs for each section
+  const introRef = useRef<HTMLDivElement>(null);
   const productRef = useRef<HTMLDivElement>(null);
   const servicesRef = useRef<HTMLDivElement>(null);
   const aboutRef = useRef<HTMLDivElement>(null);
@@ -96,7 +97,7 @@ const Homepage = () => {
       ) : (
         // Main content
         <div className="shover:scale-[1.04] transition ease-in-out duration-500 delay-10">
-          <div className="">
+          <div ref={introRef} className="">
             <Landing />
           </div>
           <div ref={productRef} className="">
