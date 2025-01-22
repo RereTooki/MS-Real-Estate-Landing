@@ -12,11 +12,20 @@ import NavigationBar from "./NavigationBar";
 const Landing = () => {
   return (
     <>
-      <div className="h-[100vh] min-h-[404px] sborder-4 border-double border-black transition ease-in-out duration-500 delay-100 poppinsFont select-none">
-        <div className="z-20" data-aos="fade-down" data-aos-duration="1700">
+      <div className="h-[100vh] min-h-[404px] sborder-4 border-double border-black transition ease-in-out duration-500 delay-100 poppinsFont select-none w-auto">
+        <div
+          className="z-50 w-[100%] sborder-4 border-black rounded-lg"
+          data-aos="fade-down"
+          data-aos-duration="1700"
+        >
           <NavigationBar />
+          {/* ss */}
         </div>
-        <div className="nxl:sborder-4 border-black border-double p-2 h-[100vh] min-h-[404px]">
+        <div
+          className="nxl:sborder-4 border-black border-double p-2 h-[100vh] min-h-[404px] w3-animate-opacity"
+          data-aos="fade-up"
+          data-aos-duration="1700"
+        >
           <img className="w-full h-full" src={introImg} alt="background-img" />
         </div>
         <div className="h-[85vh] sborder-4 border-black flex flex-col items-center justify-center text-[40px] absolute w-full top-[15vh] z-10">
@@ -168,11 +177,7 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          <div
-            className="absolute bottom-6 right-0 mr-20 sborder-4 border-white border-double text-black font-medium text-sm text-white w-[20vw] py-[12px] rounded-full text-center bg-black z-20 ibmFont hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer hover:backdrop-opacity-95   hover:bg-black/10 backdrop-invert hover:text-black w3-animate-opacity animate-pulse"
-            data-aoss="zoom-in"
-            data-aos-duration="1700"
-          >
+          <div className="absolute bottom-6 right-0 mr-20 sborder-4 border-white border-double text-black font-medium text-sm text-white w-[20vw] py-[12px] rounded-full text-center bg-black z-20 ibmFont hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer hover:backdrop-opacity-95   hover:bg-black/10 backdrop-invert hover:text-black w3-animate-opacity animate-pulse">
             <p className="transition ease-in-out duration-500 delay-10 animate-pulse">
               Get Started
             </p>

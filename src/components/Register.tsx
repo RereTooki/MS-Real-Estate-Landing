@@ -50,15 +50,10 @@ const Register = () => {
             </div>
           </div>
         </div>
-        <div
-          className="border-4s sh-[80vh] relative animate-bounces"
-          data-aoss="fade-left"
-          data-aos-duration="3400"
-        >
+        <div className="border-4s sh-[80vh] relative animate-bounces">
           <ContactMe />
         </div>
       </div>
-      ;
     </>
   );
 };

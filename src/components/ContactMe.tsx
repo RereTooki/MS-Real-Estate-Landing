@@ -54,11 +54,7 @@ const ContactMe = () => {
     <>
       {" "}
       {/* <div className="flex flex-col items-center justify-center p-4 border-4 border-double rounded-[30px] h-full border-[#A3865C] shadow-xl"> */}
-      <div
-        className="w-[40vw] max-w-[500px] max-h-[420px] stab:w-[500px] h-[s400px] shadow-xl rounded-[30px] px-[4%]s py-[s4%] xl:sp-[3%] border-[1px] bordser-r-[#4D4D4] border-y-[#A3865C] border-l-[#A3865C] tab:mt-[10px] xl:mt-0 bg-[] z-20 h-[70vh] px-8 py-4 absolute bottom-[3fvh] left-[7vw] transform -translate-y-[110%] overflow-y-scroll scroll  hover:scale-[1.04] transition ease-in-out duration-500 delay-10 bg-white"
-        data-aoss="zoom-in"
-        data-aos-duration="2000"
-      >
+      <div className="w-[40vw] max-w-[500px] max-h-[420px] stab:w-[500px] h-[s400px] shadow-xl rounded-[30px] px-[4%]s py-[s4%] xl:sp-[3%] border-[1px] bordser-r-[#4D4D4] border-y-[#A3865C] border-l-[#A3865C] tab:mt-[10px] xl:mt-0 bg-[] z-20 h-[70vh] px-8 py-4 absolute bottom-[3fvh] left-[7vw] transform -translate-y-[110%] overflow-y-scroll scroll  hover:scale-[1.04] transition ease-in-out duration-500 delay-10 bg-white">
         <form
           onSubmit={sendMessage}
           className="flex flex-col sborder-2 border-black gap-[15px]"
