@@ -9,6 +9,7 @@ import Register from "./Register";
 import Footer from "./Footer";
 import logo from "../assets/icons/MSDark.svg";
 import image1 from "../assets/images/pent.png";
+import Loading from "./Loading";
 
 const Homepage = () => {
   // Create refs for each section
@@ -71,29 +72,7 @@ const Homepage = () => {
       {" "}
       {isLoading ? (
         // Loading animation
-        <div className="w-screen h-screen flex items-center justify-center bg-gray-100  transition ease-in-out duration-500 delay-10  select-none">
-          <div className="flex flex-col items-center">
-            <div className=" sborder-4 transition ease-in-out duration-500 delay-10  hover:scale-[1.08] w-[30vw] h-[30vw]m animate-pulse">
-              <img
-                className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
-                src={logo}
-                alt="background-img"
-              />
-            </div>
-            <div
-              className="sborder-4 msax-w-[80%]"
-              data-aos="zoom-in"
-              data-aos-duration="1700"
-            >
-              <h1 className="loraFont font-medium text-[3.5vw] text-center text-black/50 leasding-[102px] hover:scale-[1.04] transition ease-in-out duration-500 delay-10 ">
-                Where <span className="font-normal italic">Luxury</span> Meets
-                Affordability
-              </h1>
-            </div>
-            {/* <div className="loader animate-spin rounded-full border-t-4 border-blue-500 border-4 h-12 w-12"></div>
-            <p className="mt-4 text-gray-600">Loading...</p> */}
-          </div>
-        </div>
+        <Loading />
       ) : (
         // Main content
         <div className="shover:scale-[1.04] transition ease-in-out duration-500 delay-10">
