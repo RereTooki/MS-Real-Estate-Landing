@@ -169,11 +169,11 @@ const Landing = () => {
             </div>
           </div>
           <div
-            className="absolute bottom-6 right-0 mr-20 sborder-4 border-white border-double text-black font-medium text-sm text-white w-[20vw] py-[12px] rounded-full text-center bg-black z-20 ibmFont hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer hover:backdrop-opacity-95   hover:bg-black/10 backdrop-invert hover:text-black "
-            data-aos="zoom-in"
+            className="absolute bottom-6 right-0 mr-20 sborder-4 border-white border-double text-black font-medium text-sm text-white w-[20vw] py-[12px] rounded-full text-center bg-black z-20 ibmFont hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer hover:backdrop-opacity-95   hover:bg-black/10 backdrop-invert hover:text-black w3-animate-opacity animate-pulse"
+            data-aoss="zoom-in"
             data-aos-duration="1700"
           >
-            <p className="transition ease-in-out duration-500 delay-10">
+            <p className="transition ease-in-out duration-500 delay-10 animate-pulse">
               Get Started
             </p>
           </div>

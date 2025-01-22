@@ -5,6 +5,7 @@ import Discover from "./Discover";
 import Explore from "./Explore";
 import Services from "./Services";
 import AboutUs from "./AboutUs";
+import Register from "./Register";
 
 const Homepage = () => {
   return (
@@ -23,6 +24,9 @@ const Homepage = () => {
       </div>
       <div className="">
         <AboutUs />
+      </div>
+      <div className="">
+        <Register />
       </div>
     </>
   );
