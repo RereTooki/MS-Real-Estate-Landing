@@ -23,7 +23,7 @@ const Landing = () => {
         </div>
         <div
           className="nxl:sborder-4 border-black border-double p-2 h-[100vh] min-h-[404px] w3-animate-opacity"
-          data-aos="fade-up"
+          data-aos="zoom-in"
           data-aos-duration="1700"
         >
           <img className="w-full h-full" src={introImg} alt="background-img" />
