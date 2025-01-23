@@ -7,8 +7,6 @@ import Services from "./Services";
 import AboutUs from "./AboutUs";
 import Register from "./Register";
 import Footer from "./Footer";
-import logo from "../assets/icons/MSDark.svg";
-import image1 from "../assets/images/pent.png";
 import Loading from "./Loading";
 
 import introImg from "../assets/images/Intro.png";
@@ -26,7 +24,7 @@ import reServiceImg from "../assets/images/reService.png";
 import reServiceMiniImg from "../assets/images/reServiceMini.png";
 
 const Homepage = () => {
-  // Create refs for each section
+  // Refs for each section
   const introRef = useRef<HTMLDivElement>(null);
   const productRef = useRef<HTMLDivElement>(null);
   const servicesRef = useRef<HTMLDivElement>(null);
@@ -34,19 +32,7 @@ const Homepage = () => {
   const reviewRef = useRef<HTMLDivElement>(null);
 
   const [isLoading, setIsLoading] = useState(true);
-  const [imagesLoaded, setImagesLoaded] = useState(0);
-
-  // // Track loaded images
-  // useEffect(() => {
-  //   if (imagesLoaded === 41) {
-  //     // All images are loaded
-  //     setIsLoading(false);
-  //   }
-  // }, [imagesLoaded]);
-
-  // const handleImageLoad = () => {
-  //   setImagesLoaded((prev) => prev + 1);
-  // };
+  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 1000);
 
   const preloadImages = [
     introImg,
@@ -79,17 +65,33 @@ const Homepage = () => {
 
   useEffect(() => {
     cacheImages(preloadImages);
-    console.log(setIsLoading);
+
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth > 1000);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  if (!isLargeScreen) {
+    return (
+      <div className="flex items-center justify-center h-screen bg-gray-100 text-center">
+        <p className="text-red-500 text-lg">
+          Please use a larger screen to view this site.
+        </p>
+      </div>
+    );
+  }
+
   return (
     <>
-      {" "}
       {isLoading ? (
         // Loading animation
         <Loading />
       ) : (
         // Main content
-        <div className="shover:scale-[1.04] transition ease-in-out duration-500 delay-10">
+        <div className=" transition ease-in-out duration-500 delay-10">
           <div ref={introRef} className="">
             <Landing />
           </div>
