@@ -18,7 +18,7 @@ const AboutUs = () => {
           <div className="flex flex-row sborder-2 justify-between">
             <div
               className="flex flex-col gap-4 sborder-2"
-              data-aoss="fade-right"
+              data-aos="fade-right"
               data-aos-duration="1700"
             >
               <h3
