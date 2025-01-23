@@ -35,12 +35,12 @@ const Homepage = () => {
   // };
 
   const preloadImages = [
-    "../src/assets/images/Intro.png",
-    "../src/assets/images/aboutUs.png",
-    "../src/assets/images/customer1.png",
-    "../src/assets/images/customer2.png",
-    "../src/assets/images/discover1.png",
-    "../src/assets/images/discover2.png",
+    "./src/assets/images/Intro.png",
+    "../../src/assets/images/aboutUs.png",
+    "../assets/images/customer1.png",
+    "./assets/images/customer2.png",
+    "src/assets/images/discover1.png",
+    "assets/images/discover2.png",
     "../src/assets/images/discover3.png",
     "../src/assets/images/explore.png",
     "../src/assets/images/explore1.png",

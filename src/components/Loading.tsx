@@ -21,7 +21,7 @@ const Loading = () => {
             data-aos-duration="1700"
           >
             <h1 className="loraFont font-medium text-[3.5vw] text-center text-black/50 leasding-[102px] hover:scale-[1.04] transition ease-in-out duration-500 delay-10 ">
-              <WritingAnimation text="Where Luxury Meets Affordability" />
+              <WritingAnimation text="Where Luxury Meets Affordabilitys" />
               {/* Where <span className="font-normal italic">Luxury</span> Meets
               Affordability */}
             </h1>
