@@ -6,7 +6,7 @@ import arrowLLight from "../assets/icons/arrowLLight.svg";
 const AboutUs = () => {
   return (
     <>
-      <div className="min-h-[100vh] sborder-4 border-double border-black p-4 ibmFont select-none flex flex-col justify-between mt-14">
+      <div className="min-h-[100vh] sborder-4 border-double border-black p-4 ibmFont select-none flex flex-col justify-between mt-14 gap-6">
         <div className="sborder-4 border-double flex flex-col ] items-center">
           <p
             className="poppinsFont font-normal text-base text-[#A3865C]"
