@@ -11,6 +11,20 @@ import logo from "../assets/icons/MSDark.svg";
 import image1 from "../assets/images/pent.png";
 import Loading from "./Loading";
 
+import introImg from "../assets/images/Intro.png";
+import aboutUsImg from "../assets/images/aboutUs.png";
+import customer1Img from "../assets/images/customer1.png";
+import customer2Img from "../assets/images/customer2.png";
+import discover1Img from "../assets/images/discover1.png";
+import discover2Img from "../assets/images/discover2.png";
+import discover3Img from "../assets/images/discover3.png";
+import exploreImg from "../assets/images/explore.png";
+import explore1Img from "../assets/images/explore1.png";
+import explore2Img from "../assets/images/explore2.png";
+import pentImg from "../assets/images/pent.png";
+import reServiceImg from "../assets/images/reService.png";
+import reServiceMiniImg from "../assets/images/reServiceMini.png";
+
 const Homepage = () => {
   // Create refs for each section
   const introRef = useRef<HTMLDivElement>(null);
@@ -35,19 +49,19 @@ const Homepage = () => {
   // };
 
   const preloadImages = [
-    "./src/assets/images/Intro.png",
-    "../../src/assets/images/aboutUs.png",
-    "../assets/images/customer1.png",
-    "./assets/images/customer2.png",
-    "src/assets/images/discover1.png",
-    "assets/images/discover2.png",
-    "../src/assets/images/discover3.png",
-    "../src/assets/images/explore.png",
-    "../src/assets/images/explore1.png",
-    "../src/assets/images/explore2.png",
-    "../src/assets/images/pent.png",
-    "../src/assets/images/reService.png",
-    "../src/assets/images/reServiceMini.png",
+    introImg,
+    aboutUsImg,
+    customer1Img,
+    customer2Img,
+    discover1Img,
+    discover2Img,
+    discover3Img,
+    exploreImg,
+    explore1Img,
+    explore2Img,
+    pentImg,
+    reServiceImg,
+    reServiceMiniImg,
   ];
 
   const cacheImages = async (srcArray: string[]): Promise<void> => {
