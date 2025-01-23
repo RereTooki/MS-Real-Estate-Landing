@@ -80,7 +80,7 @@ const Homepage = () => {
 
   if (!isLargeScreen) {
     return (
-      <div className="flex flex-col h-screen bg-gray-100 text-center gap-12 border-4 items-center justify-center select-none">
+      <div className="flex flex-col h-screen bg-gray-100 text-center gap-12 sborder-4 items-center justify-center select-none">
         <div className="flex flex-row items-center justify-center gap-8 ">
           <div className=" sborder-4 transition ease-in-out duration-500 delay-10  hover:scale-[1.08] w-[40vw] h-[30vw]m animate-pulse">
             <img
