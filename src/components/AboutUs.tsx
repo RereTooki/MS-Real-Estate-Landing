@@ -6,7 +6,7 @@ import arrowLLight from "../assets/icons/arrowLLight.svg";
 const AboutUs = () => {
   return (
     <>
-      <div className="h-[100vh] sborder-4 border-double border-black p-4 ibmFont select-none flex flex-col justify-between mt-14">
+      <div className="min-h-[100vh] sborder-4 border-double border-black p-4 ibmFont select-none flex flex-col justify-between mt-14">
         <div className="sborder-4 border-double flex flex-col ] items-center">
           <p
             className="poppinsFont font-normal text-base text-[#A3865C]"
@@ -17,12 +17,12 @@ const AboutUs = () => {
           </p>
           <div className="flex flex-row sborder-2 justify-between">
             <div
-              className="flex flex-col gap-6 sborder-2"
-              data-aos="fade-right"
+              className="flex flex-col gap-4 sborder-2"
+              data-aoss="fade-right"
               data-aos-duration="1700"
             >
               <h3
-                className="poppinsFont font-medium text-[55px] leading-[82.5px] texts-center sborder-2 border-black w-[52vw]
+                className="poppinsFont font-medium text-[55px] leading-[72.5px] texts-center sborder-2 border-black w-[52vw]
               "
               >
                 Get to Know Us: Leaders in{" "}

@@ -8,6 +8,8 @@ import AboutUs from "./AboutUs";
 import Register from "./Register";
 import Footer from "./Footer";
 import Loading from "./Loading";
+import { IoIosLaptop } from "react-icons/io";
+import logo from "../assets/icons/MSDark.svg";
 
 import introImg from "../assets/images/Intro.png";
 import aboutUsImg from "../assets/images/aboutUs.png";
@@ -22,6 +24,7 @@ import explore2Img from "../assets/images/explore2.png";
 import pentImg from "../assets/images/pent.png";
 import reServiceImg from "../assets/images/reService.png";
 import reServiceMiniImg from "../assets/images/reServiceMini.png";
+import fullWebPic from "../assets/images/fullWebPic.webp";
 
 const Homepage = () => {
   // Refs for each section
@@ -48,6 +51,7 @@ const Homepage = () => {
     pentImg,
     reServiceImg,
     reServiceMiniImg,
+    fullWebPic,
   ];
 
   const cacheImages = async (srcArray: string[]): Promise<void> => {
@@ -67,7 +71,7 @@ const Homepage = () => {
     cacheImages(preloadImages);
 
     const handleResize = () => {
-      setIsLargeScreen(window.innerWidth > 1000);
+      setIsLargeScreen(window.innerWidth > 1250);
     };
 
     window.addEventListener("resize", handleResize);
@@ -76,9 +80,25 @@ const Homepage = () => {
 
   if (!isLargeScreen) {
     return (
-      <div className="flex items-center justify-center h-screen bg-gray-100 text-center">
-        <p className="text-red-500 text-lg">
-          Please use a larger screen to view this site.
+      <div className="flex flex-col h-screen bg-gray-100 text-center gap-12 border-4 items-center justify-center select-none">
+        <div className="flex flex-row items-center justify-center gap-8 ">
+          <div className=" sborder-4 transition ease-in-out duration-500 delay-10  hover:scale-[1.08] w-[40vw] h-[30vw]m animate-pulse">
+            <img
+              className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
+              src={logo}
+              alt="background-img"
+            />
+          </div>
+          <div className=" sborder-4 transition ease-in-out duration-500 delay-10  hover:scale-[1.08] w-[40vw] h-[30vw]m sanimate-pulse">
+            <img
+              className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
+              src={fullWebPic}
+              alt="background-img"
+            />
+          </div>
+        </div>
+        <p className="text-[#392C19]/90 text-lg ws-[30vw] text-left">
+          Please switch to a larger screen to view this site!
         </p>
       </div>
     );
