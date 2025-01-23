@@ -18,11 +18,11 @@ const Discover = () => {
     <>
       <div className="h-[100vh] w-full sborder-4 border-black border-double px-4 py-14 flex flex-row justify-between select-none">
         <div
-          className="wborder-4 w-[38vw] rounded-[24px] ibmFont relative overflow-hidden"
+          className="sborder-4 w-[38vw] rounded-[24px] ibmFont relative overflow-hidden"
           data-aos="fade-right"
           data-aos-duration="1700"
         >
-          <div className="hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer">
+          <div className="hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer h-full">
             <img
               className="w-full h-full rounded-[24px]"
               src={discover1}
@@ -87,11 +87,13 @@ const Discover = () => {
           {" "}
           <div className="flex flex-col items-center gap-2 sborder-4 border-dashed">
             <div className="sborder-2 h-[60px] w-[60px] rounded-full hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer">
-              <img
-                className="w-full h-full rounded-full"
-                src={customer2}
-                alt="background-img"
-              />
+              <div className="hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer">
+                <img
+                  className="w-full h-full rounded-full "
+                  src={customer2}
+                  alt="background-img"
+                />
+              </div>
             </div>
             <div className="text-[#D3D3D3] text-[8px] font-medium z-20 sborder-2 self-center ibmFont">
               <p>@budi.santoso</p>
@@ -164,11 +166,11 @@ const Discover = () => {
           </div>
         </div>
         <div
-          className="flex flex-col justify-between border-[#010101] w-[38vw] rounded-[24px] ibmFont"
+          className="flex flex-col sborder-4 justify-between border-[#010101] w-[38vw] rounded-[24px] ibmFont"
           data-aos="fade-left"
           data-aos-duration="1700"
         >
-          <div className="border-[0.5px] border-[#010101] w-[38vw]  rounded-[24px] flex flex-col px-4 py-6 ">
+          <div className="border-[0.5px] border-[#010101] w-[38vw]  rounded-[24px] flex flex-col px-4 py-6 hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer">
             <h3 className="ibmFont text-4xl font-medium leading-[47px] pb-4">
               Discover Your Next Chapter in the Perfect Home
             </h3>

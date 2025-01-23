@@ -76,19 +76,23 @@ const Landing = () => {
             <div className="flex sborder-4 text-black z-20">Popular</div>
           </div> */}
           <div
-            className="sborder-4 border-black border-double overflow-hidden h-[34vh] w-[43vw] self-start mx-20 px-2 relative  transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04]"
+            className="sborder-4 border-black border-double overflow-hidden h-[34vh]  mw-[43vw] self-start mx-20 spx-2 relative  transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04]"
             data-aos="fade-right"
             data-aos-duration="1700"
           >
             {/* SVG Background */}
             <img
-              className="h-full w-fusll object-cover"
+              className="h-full w-full object-contain"
               src={curve}
               alt="curve/square"
             />
 
             {/* Text Elements */}
-            <div className="absolute sborder-4 w-[28%] flex justify-between top-2 left-4 text-black text-[11px] font-medium z-20">
+            <div
+              className="absolute border-4a w-[35%] flex justify-between top-2 left-2 text-black text-[11px] font-medium z-20"
+              data-aos="fade-left"
+              data-aos-duration="1700"
+            >
               <div className="rounded-full px-2 py-[2px] text-[#A3865C] bg-[#FFEACB]">
                 Popular{" "}
               </div>
@@ -97,7 +101,7 @@ const Landing = () => {
               </div>
             </div>
 
-            <div className="flex flex-col gap-4 sborder-4 absolute top-[30%] left-4 text-black text-xl w-[45%] z-20 font-medium">
+            <div className="flex flex-col sborder-4 absolute top-[30%] left-4 text-black text-xl w-[45%] z-20 font-medium">
               <div className="relative left-2">
                 Exclusive Country Estate Expansive Grounds
               </div>
@@ -143,7 +147,11 @@ const Landing = () => {
 
             {/* Text Elements */}
 
-            <div className="flex flex-col gap-2 sborder-4 absolute top-2 w-full z-20">
+            <div
+              className="flex flex-col gap-2 sborder-4 absolute top-2 w-full z-20"
+              data-aos="fade-right"
+              data-aos-duration="1700"
+            >
               <div className="flex flex-row gap-4">
                 <div className="sborder-2 ml-2 h-[52px] w-[52px]">
                   <img
