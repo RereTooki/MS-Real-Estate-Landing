@@ -54,7 +54,7 @@ const ContactMe = () => {
     <>
       {" "}
       {/* <div className="flex flex-col items-center justify-center p-4 border-4 border-double rounded-[30px] h-full border-[#A3865C] shadow-xl"> */}
-      <div className="w-[40vw] max-w-[500px] max-h-[420px] stab:w-[500px] h-[s400px] shadow-xl rounded-[30px] px-[4%]s py-[s4%] xl:sp-[3%] border-[1px] bordser-r-[#4D4D4] border-y-[#A3865C] border-l-[#A3865C] tab:mt-[10px] xl:mt-0 bg-[] z-20 h-[70vh] px-8 py-4 absolute bottom-[3fvh] left-[7vw] transform -translate-y-[110%] overflow-y-scroll scroll  hover:scale-[1.04] transition ease-in-out duration-500 delay-10 bg-white">
+      <div className="w-[40vw] max-w-[500px] max-h-[420px] shadow-xl rounded-l-[30px] rounded-r-2xl border-[1px] bordser-r-[#4D4D4] border-y-[#A3865C] border-l-[#A3865C] z-20 h-[70vh] px-8 py-4 overflow-y-scroll scroll  hover:scale-[1.02] transition ease-in-out duration-500 delay-10 bg-[#A3865C] text-[#FFEACB]  ">
         <form
           onSubmit={sendMessage}
           className="flex flex-col sborder-2 border-black gap-[15px]"
@@ -71,7 +71,7 @@ const ContactMe = () => {
               required
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="relative block w-full px-3 py-2 border border-[#A3865C] placeholder-gray-500 text-gray-900 rounded-lg focus:outline-none focus:ring-clrtransparentgreen focus:border-clrtransparentgreen focus:z-10 text-[14px]"
+              className="relative block w-full px-3 py-2 border border-[#FFEACB]   placeholder-gray-500 text-gray-900 rounded-lg focus:outline-none focus:ring-[#FFEACB]   focus:border-[#FFEACB]   focus:z-10 text-[14px]"
               placeholder="Full Name"
             />
             {name.length >= 1 && name.length < 3 && (
@@ -90,7 +90,7 @@ const ContactMe = () => {
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full px-3 py-2 border border-[#A3865C] placeholder-gray-500 text-gray-900 rounded-lg focus:outline-none focus:ring-clrtransparentgreen focus:border-clrtransparentgreen focus:z-10 text-[14px]"
+              className="w-full px-3 py-2 border border-[#A3865C] placeholder-gray-500 text-gray-900 rounded-lg focus:outline-none focus:ring-[#FFEACB]   focus:border-[#FFEACB]   focus:z-10 text-[14px]"
               placeholder="Email Address"
             />
             {email.length >= 1 && email.length < 6 && (
@@ -107,7 +107,7 @@ const ContactMe = () => {
               required
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              className="w-full px-3 py-2 border border-[#A3865C] placeholder-gray-500 text-gray-900 rounded-lg focus:outline-none focus:ring-clrtransparentgreen focus:border-clrtransparentgreen focus:z-10 text-[14px] h-[10pxs] tab:h-[100px]"
+              className="w-full px-3 py-2 border border-[#A3865C] placeholder-gray-500 text-gray-900 rounded-lg focus:outline-none focus:ring-[#FFEACB]   focus:border-[#FFEACB]   focus:z-10 text-[14px] h-[10pxs] tab:h-[100px]"
               placeholder="Messsage"
             />
             {message.length >= 1 && message.length < 6 && (
@@ -118,7 +118,7 @@ const ContactMe = () => {
             <div className="sborder-2  hover:scale-[1.02] transition ease-in-out duration-500 delay-10 animate-bounce">
               <button
                 type="submit"
-                className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md bg-[#FFEACB] hover:bg-generalClr focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 shadow-xl text-[14px] tab:text-lg text-[#A3865C] backdrop-opacity-10 hover:backdrop-opacity-95 hover:bg-[#FFEACB]/10 backdrop-invert"
+                className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md bg-[#FFEACB]  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 shadow-xl text-[14px] tab:text-lg text-[#A3865C] backdrop-opacity-10 hover:backdrop-opacity-10 hover:bg-black backdrop-invert"
               >
                 Join Us!
               </button>

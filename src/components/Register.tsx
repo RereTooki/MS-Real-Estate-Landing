@@ -5,7 +5,7 @@ import ContactMe from "./ContactMe";
 const Register = () => {
   return (
     <>
-      <div className="h-[100vh] sborder-4 border-double border-black p-4 ibmFont select-none my-14 flex flex-col items-center">
+      <div className="h-[100vh] sborder-4 border-double border-black p-4 ibmFont select-none my-14 flex flex-col items-center relative">
         <p
           className="poppinsFont font-normal text-base text-[#A3865C] mb-6"
           data-aos="zoom-in"
@@ -50,7 +50,7 @@ const Register = () => {
             </div>
           </div>
         </div>
-        <div className="border-4s sh-[80vh] relative animate-bounces">
+        <div className="sborder-4 border-black sh-[80vh] absolute  transform translate-y-[15vh] translate-x-[70%]  animate-bounces">
           <ContactMe />
         </div>
       </div>

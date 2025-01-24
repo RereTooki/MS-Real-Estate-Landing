@@ -140,7 +140,7 @@ const Landing = () => {
           >
             {/* SVG Background */}
             <img
-              className="h-[33vh] w-[20vw] rounded-[28px] object-cover"
+              className="h-[33vh] w-[20vw] rounded-[28px] object-cover over:scale-[1.04] transition ease-in-out duration-500 delay-10   "
               src={curve2}
               alt="curve/square"
             />
@@ -155,7 +155,7 @@ const Landing = () => {
               <div className="flex flex-row gap-4">
                 <div className="sborder-2 ml-2 h-[52px] w-[52px]">
                   <img
-                    className="w-full h-full"
+                    className="w-full h-full "
                     src={customer1}
                     alt="background-img"
                   />
