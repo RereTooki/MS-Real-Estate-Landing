@@ -39,11 +39,7 @@ const Landing = () => {
           />
           {/* ss 
         </div> */}
-        <div
-          className="nxl:sborder-4 border-black border-double p-2 h-[100vh] min-h-[404px] w3-animate-opacity"
-          data-aos="zoom-in"
-          data-aos-duration="1700"
-        >
+        <div className="nxl:sbsorder-4 border-black border-double p-2 h-[100vh] min-h-[404px] w3-animate-opacity">
           <img className="w-full h-full" src={introImg} alt="background-img" />
         </div>
         <div className="h-[85vh] sborder-4 border-black flex flex-col items-center justify-center text-[40px] absolute w-full top-[15vh] z-10">
