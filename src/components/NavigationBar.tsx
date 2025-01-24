@@ -59,13 +59,13 @@ const NavigationBar: React.FC<NavigationBarProps> = ({
               className="sborder-2 sborder-transparent rounded-full hover:text-blacks hover:backdrop-inverts hover:underline underline-offset-4 decoration-dotted px-2 xxl:px-6 py-[7px] hover:scale-[1.08] transition ease-in-out duration-500 delay-50"
               onClick={() => scrollToSection(introRef)}
             >
-              Homes
+              Home
             </div>{" "}
             <div
               className="sborder-2 sborder-transparent rounded-full hover:text-blacks hover:backdrop-inverts hover:underline underline-offset-4 decoration-dotted px-2 xxl:px-6 py-[7px] hover:scale-[1.08] transition ease-in-out duration-500 delay-50"
               onClick={() => scrollToSection(productRef)}
             >
-              Products
+              Product
             </div>
             <div
               className="sborder-2 sborder-transparent rounded-full hover:text-blacks hover:backdrop-inverts hover:underline underline-offset-4 decoration-dotted px-2 xxl:px-6 py-[7px] hover:scale-[1.08] transition ease-in-out duration-500 delay-50"

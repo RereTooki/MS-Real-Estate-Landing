@@ -111,7 +111,7 @@ const Homepage = () => {
         <Loading />
       ) : (
         // Main content
-        <div className=" transition ease-in-out duration-500 delay-10 overflow-x-hidden">
+        <div className=" transition ease-in-out duration-500 delay-10 overflow-hidden">
           <div
             className="z-50 w-[100%] sborder-4 border-black rounded-lg"
             data-aos="fade-down"
