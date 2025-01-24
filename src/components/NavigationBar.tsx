@@ -41,7 +41,7 @@ const NavigationBar: React.FC<NavigationBarProps> = ({
             className=" flex justify-between items-center  text-sm text-white px-[2px] hover:px-[4px] py-[3px] hover:scale-[1.04] backdrop-opacity-70  bg-white/10 backdrop-invert  rounded-full border-2 border-transparent transition ease-in-out duration-500 delay-10 cursor-pointer drop-shadow-[3px_6px_5px_rgba(0,0,0,0.35)]"
             onClick={() => scrollToSection(reviewRef)}
           >
-            <div className="rounded-full px-4 py-[7px] transition ease-in-out duration-500 delay-50">
+            <div className="rounded-full px-4 py-[7px] transition ease-in-out duration-500 delay-50 hover:underline underline-offset-4  decoration-dotted transition ease-in-out duration-500 delay-50">
               Contact Us
             </div>
             <div className="border-4 border-white rounded-full p-2 bg-white">

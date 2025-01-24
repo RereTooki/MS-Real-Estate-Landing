@@ -78,7 +78,7 @@ const Landing = () => {
           <div
             className="sborder-4 border-black border-double overflow-hidden h-[34vh]  mw-[43vw] self-start mx-20 spx-2 relative  transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04]"
             data-aos="fade-right"
-            data-aos-duration="1700"
+            data-ao-duration="1700"
           >
             {/* SVG Background */}
             <img
@@ -89,14 +89,14 @@ const Landing = () => {
 
             {/* Text Elements */}
             <div
-              className="absolute border-4a w-[35%] flex justify-between top-2 left-2 text-black text-[11px] font-medium z-20"
+              className="absolute sborder-4 w-[36.5%] flex justify-between top-2 left- text-black text-[11px] font-medium z-20 px-2"
               data-aos="fade-left"
               data-aos-duration="1700"
             >
-              <div className="rounded-full px-2 py-[2px] text-[#A3865C] bg-[#FFEACB]">
+              <div className="ml-[3px] rounded-full px-2 py-[2px] text-[#A3865C] bg-[#FFEACB]">
                 Popular{" "}
               </div>
-              <div className="rounded-full px-2 py-[2px] mr-2 text-white bg-[#A3865C]">
+              <div className="rounded-full px-2 py-[2px] msr-2 text-white bg-[#A3865C]">
                 Exclusive
               </div>
             </div>
