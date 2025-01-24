@@ -67,6 +67,8 @@ const AboutUs = () => {
             <h3
               className="poppinsFont font-semibold text-4xl leading-[60px] sborder-2 border-black w-[62vw] text-whitse z-40 absoluste bottom-0
               "
+              data-aos="fade-up"
+              data-aos-duration="1700"
             >
               Celebrating Excellence: Unveiling Our Identity
             </h3>
@@ -78,7 +80,7 @@ const AboutUs = () => {
               meet your unique needs.
             </p>
             <div className="sborder-4 flex flex-row w-fit gap-4 mt-2">
-              <div className="border-2 px-6 rounded-full bg-white border-white hover:border-white/20 flex items-center backdrop-opacity-10 hover:backdrop-opacity-95 hover:bg-white/20 backdrop-invert hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer">
+              <div className="sborder-2 px-6 rounded-full bg-white/10 border-white hover:border-white/20 flex items-center backdrop-opacity-80 hover:backdrop-opacity-95 hover:bg-white/20 backdrop-invert hover:scale-[1.06] transition ease-in-out duration-500 delay-10 cursor-pointer">
                 <div className="h-[12px] w-[7px] object-cover ">
                   <img
                     className="w-full h-full object-cover"
@@ -90,7 +92,7 @@ const AboutUs = () => {
               <p className="text-white/60s poppinsFont font-medium text-[32px] text-justify">
                 02
               </p>
-              <div className="border-2 px-6 rounded-full flex items-center bg-[#A3865C] border-[#A3865C] hover:border-[#A3865C]/20 backdrop-opacity-10 hover:backdrop-opacity-95 hover:bg-[#A3865C]/20 backdrop-invert hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer">
+              <div className="sborder-2 px-6 rounded-full flex items-center bg-[#A3865C]/10 border-[#A3865C] hover:border-[#A3865C]/20 backdrop-opacity-90 hover:backdrop-opacity-95 hover:bg-[#A3865C]/20 backdrop-invert hover:scale-[1.06] transition ease-in-out duration-500 delay-10 cursor-pointer">
                 <div className="h-[12px] w-[7px] object-cover">
                   <img
                     className="w-full h-full object-cover"

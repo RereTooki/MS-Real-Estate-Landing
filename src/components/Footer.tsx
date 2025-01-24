@@ -9,12 +9,12 @@ const Footer = () => {
     <>
       <div
         className="sborder-4 border-double border-black p-4 interFont font-normal text-base leading-[19px] select-none bg-[#392C19]/80"
-        data-aoss="fade-up"
+        data-aos="fade-up"
         data-aos-duration="1700"
       >
         <div
           className="border-b-[1px] mx-20 pt-8 pb-8 flex mb-16 justify-between"
-          data-aoss="fade-up"
+          data-aos="fade-up"
           data-aos-duration="1700"
         >
           {" "}
