@@ -11,7 +11,7 @@ export default {
       lg: "750px",
       nxl: "800px",
       xl: "1000px",
-      xxl: "1100px",
+      xxl: "1220px",
     },
 
     extend: {
