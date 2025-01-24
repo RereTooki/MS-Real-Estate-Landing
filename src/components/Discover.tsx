@@ -16,7 +16,7 @@ import clock from "../assets/icons/clock.svg";
 const Discover = () => {
   return (
     <>
-      <div className="h-[100vh] w-full sborder-4 border-black border-double px-4 py-14 flex flex-row justify-between select-none">
+      <div className="min-h-[100vh] xxl:h-[100vh] w-full sborder-4 border-black border-double px-4 py-14 flex flex-row justify-between select-none">
         <div
           className="sborder-4 w-[38vw] rounded-[24px] ibmFont relative overflow-hidden"
           data-aos="fade-right"
@@ -166,7 +166,7 @@ const Discover = () => {
           </div>
         </div>
         <div
-          className="flex flex-col sborder-4 justify-between border-[#010101] w-[38vw] rounded-[24px] ibmFont"
+          className="flex flex-col sborder-4 justify-between border-[#010101] w-[38vw] rounded-[24px] ibmFont gap-4 xxl:gap-0"
           data-aos="fade-left"
           data-aos-duration="1700"
         >

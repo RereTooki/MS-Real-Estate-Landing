@@ -29,16 +29,16 @@ const AboutUs = () => {
                 <span className="text-[#A3865C]">Property Solutions</span>
               </h3>
               <div className="flex sborder-2 border-black border-double justify-between">
-                <div className="border-[1px] px-14 py-2 rounded-full w-fit self-center poppinsFont font-medium text-sm bg-[#A3865C] border-[#A3865C] hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer text-white">
+                <div className="border-[1px] px-12 xxl:px=-14 py-2 rounded-full w-fit self-center poppinsFont font-medium text-sm bg-[#A3865C] border-[#A3865C] hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer text-white">
                   Profile
                 </div>
-                <div className="border-[1px] px-14 py-2 rounded-full w-fit self-center poppinsFont font-medium text-sm border-[#A3865C] hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer text-[#A3865C]">
+                <div className="border-[1px] px-12 xxl:px=-14 py-2 rounded-full w-fit self-center poppinsFont font-medium text-sm border-[#A3865C] hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer text-[#A3865C]">
                   Sale
                 </div>
-                <div className="border-[1px] px-14 py-2 rounded-full w-fit self-center poppinsFont font-medium text-sm border-[#A3865C] hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer text-[#A3865C]">
+                <div className="border-[1px] px-12 xxl:px=-14 py-2 rounded-full w-fit self-center poppinsFont font-medium text-sm border-[#A3865C] hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer text-[#A3865C]">
                   Team
                 </div>
-                <div className="border-[1px] px-14 py-2 rounded-full w-fit self-center poppinsFont font-medium text-sm border-[#A3865C] hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer text-[#A3865C]">
+                <div className="border-[1px] px-12 xxl:px=-14 py-2 rounded-full w-fit self-center poppinsFont font-medium text-sm border-[#A3865C] hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer text-[#A3865C]">
                   Price
                 </div>
               </div>
@@ -62,10 +62,10 @@ const AboutUs = () => {
               alt="About Us"
             />
           </div> */}
-          <div className="flex flex-col sborder-4 border-black absolute stop-8 sleft-20 w-[62vw] gap-2 text-white top-[50%] left-[50%] transform -translate-x-2/3 -translate-y-1/2 hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer">
+          <div className="flex flex-col items-centers justify-center sborder-4 border-black absolute stop-8 sleft-20 w-[62vw] xxl:w-[68vw] gap-2 text-white top-[50%] left-[50%] transform -translate-x-2/3 xxl:-translate-x-[60%]  -translate-y-1/2 hover:scale-[1.02] xxl:hover:scale-[1.04] transition ease-in-out duration-500 delay-10 cursor-pointer">
             {" "}
             <h3
-              className="poppinsFont font-semibold text-4xl leading-[60px] sborder-2 border-black w-[62vw] text-whitse z-40 absoluste bottom-0
+              className="poppinsFont font-semibold text-4xl leading-[50px] xxl:leading-[60px] sborder-2 border-black w-[62vw] text-whitse z-40 absoluste bottom-0
               "
               data-aos="fade-up"
               data-aos-duration="1700"
@@ -81,7 +81,7 @@ const AboutUs = () => {
             </p>
             <div className="sborder-4 flex flex-row w-fit gap-4 mt-2">
               <div className="sborder-2 px-6 rounded-full bg-white/10 border-white hover:border-white/20 flex items-center backdrop-opacity-80 hover:backdrop-opacity-95 hover:bg-white/20 backdrop-invert hover:scale-[1.06] transition ease-in-out duration-500 delay-10 cursor-pointer">
-                <div className="h-[12px] w-[7px] object-cover ">
+                <div className="h-[8px] xxl:h-[12px] xxl:w-[7px] w-[4px] object-cover ">
                   <img
                     className="w-full h-full object-cover"
                     src={arrowLDark}
@@ -89,11 +89,11 @@ const AboutUs = () => {
                   />
                 </div>
               </div>
-              <p className="text-white/60s poppinsFont font-medium text-[32px] text-justify">
+              <p className="text-white/60s poppinsFont font-medium text-[25px] xxl:text-[32px] text-justify">
                 02
               </p>
               <div className="sborder-2 px-6 rounded-full flex items-center bg-[#A3865C]/10 border-[#A3865C] hover:border-[#A3865C]/20 backdrop-opacity-90 hover:backdrop-opacity-95 hover:bg-[#A3865C]/20 backdrop-invert hover:scale-[1.06] transition ease-in-out duration-500 delay-10 cursor-pointer">
-                <div className="h-[12px] w-[7px] object-cover">
+                <div className="h-[8px] xxl:h-[12px] xxl:w-[7px] w-[4px] object-cover">
                   <img
                     className="w-full h-full object-cover"
                     src={arrowLLight}
