@@ -71,7 +71,7 @@ const Homepage = () => {
     cacheImages(preloadImages);
 
     const handleResize = () => {
-      setIsLargeScreen(window.innerWidth > 150);
+      setIsLargeScreen(window.innerWidth > 1250);
     };
 
     window.addEventListener("resize", handleResize);

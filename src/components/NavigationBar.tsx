@@ -27,7 +27,7 @@ const NavigationBar: React.FC<NavigationBarProps> = ({
   };
   return (
     <>
-      <div className="w-full m-2 sborder-4 border-black px-20 absolutes fixed top-[3.5vh] z-[100] ">
+      <div className="w-full m-2 sborder-4 border-black px-20 absolutes fixed top-[3.5vh] z-[100] select-none">
         <div className="sborder-4 flex justify-between s">
           <div className="sborder-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] backdrop-opacity-70  bg-transparents bacskdrop-invert  roundsed-full p-0">
             <img
