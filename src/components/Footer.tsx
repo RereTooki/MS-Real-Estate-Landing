@@ -8,13 +8,13 @@ const Footer = () => {
   return (
     <>
       <div
-        className=" sborder-4 border-double border-black p-4 interFont font-normal text-base leading-[19px] select-none bg-[#392C19]/80"
-        data-aos="fade-up"
+        className="sborder-4 border-double border-black p-4 interFont font-normal text-base leading-[19px] select-none bg-[#392C19]/80"
+        data-aoss="fade-up"
         data-aos-duration="1700"
       >
         <div
           className="border-b-[1px] mx-20 pt-8 pb-8 flex mb-16 justify-between"
-          data-aos="fade-up"
+          data-aoss="fade-up"
           data-aos-duration="1700"
         >
           {" "}
@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="sborder-4 mx-20 flex justify-between text-white gap-4 mb-10">
+        <div className="sborder-4 mx-20 flex justify-between text-white gap-4 mb-8">
           <div className="grow flex flex-col sborder-2 border-black gap-2">
             <p className="mb-4 font-semibold">Feature</p>
             <p>Intensive learning</p>
@@ -77,6 +77,27 @@ const Footer = () => {
             <p>Legal center</p>
             <p>Privacy policy</p>
             <p>Terms & Conditions</p>
+          </div>
+        </div>
+        <div className="">
+          <div className="attribution underline-offset-4 whitespace-nowraps poppinsFont text-center text-white text-sm sborder-4">
+            Designed by{" "}
+            <a
+              href="https://www.linkedin.com/in/mehbubur-rahman/"
+              className="text-base underline decoration-dotted"
+              target="_blank"
+            >
+              Mehbubur Rahman
+            </a>{" "}
+            ✦ Developed by{" "}
+            <a
+              href="https://www.linkedin.com/in/rerel-oluwa-tooki-cnvp-b53396253/"
+              className="text-base underline decoration-dotted"
+              target="_blank"
+            >
+              Rerel'Oluwa Tooki
+            </a>{" "}
+            ✦ © 2025 MS - All Rights Reserved.
           </div>
         </div>
       </div>
