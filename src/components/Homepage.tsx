@@ -25,7 +25,7 @@ import pentImg from "../assets/images/pent.png";
 import reServiceImg from "../assets/images/reService.png";
 import reServiceMiniImg from "../assets/images/reServiceMini.png";
 import fullWebPic from "../assets/images/fullWebPic.webp";
-
+import NavigationBar from "./NavigationBar";
 const Homepage = () => {
   // Refs for each section
   const introRef = useRef<HTMLDivElement>(null);
@@ -112,6 +112,20 @@ const Homepage = () => {
       ) : (
         // Main content
         <div className=" transition ease-in-out duration-500 delay-10">
+          <div
+            className="z-50 w-[100%] sborder-4 border-black rounded-lg"
+            data-aos="fade-down"
+            data-aos-duration="3400"
+          >
+            <NavigationBar
+              introRef={introRef}
+              productRef={productRef}
+              servicesRef={servicesRef}
+              aboutRef={aboutRef}
+              reviewRef={reviewRef}
+            />
+            {/* ss */}
+          </div>
           <div ref={introRef} className="">
             <Landing />
           </div>

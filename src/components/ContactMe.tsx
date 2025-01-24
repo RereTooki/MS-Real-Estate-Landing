@@ -54,7 +54,11 @@ const ContactMe = () => {
     <>
       {" "}
       {/* <div className="flex flex-col items-center justify-center p-4 border-4 border-double rounded-[30px] h-full border-[#A3865C] shadow-xl"> */}
-      <div className="w-[40vw] max-w-[500px] max-h-[420px] shadow-xl rounded-l-[30px] rounded-r-2xl border-[1px] bordser-r-[#4D4D4] border-y-[#A3865C] border-l-[#A3865C] z-20 h-[70vh] px-8 py-4 overflow-y-scroll scroll  hover:scale-[1.02] transition ease-in-out duration-500 delay-10 bg-[#A3865C] text-[#FFEACB]  ">
+      <div
+        className="w-[40vw] max-w-[500px] max-h-[420px] shadow-xl rounded-l-[30px] rounded-r-2xl border-[1px] bordser-r-[#4D4D4] border-y-[#A3865C] border-l-[#A3865C] z-20 h-[70vh] px-8 py-4 overflow-y-scroll scroll  hover:scale-[1.02] transition ease-in-out duration-500 delay-10 bg-[#A3865C] text-[#FFEACB]  "
+        data-aos="fade-up"
+        data-aos-duration="1700"
+      >
         <form
           onSubmit={sendMessage}
           className="flex flex-col sborder-2 border-black gap-[15px]"

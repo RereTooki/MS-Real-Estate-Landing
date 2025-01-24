@@ -25,10 +25,10 @@ const Landing = () => {
   return (
     <>
       <div className="h-[100vh] min-h-[404px] sborder-4 border-double border-black transition ease-in-out duration-500 delay-100 poppinsFont select-none w-auto">
-        <div
+        {/* <div
           className="z-50 w-[100%] sborder-4 border-black rounded-lg"
           data-aos="fade-down"
-          data-aos-duration="1700"
+          data-aos-duration="3400"
         >
           <NavigationBar
             introRef={introRef}
@@ -37,8 +37,8 @@ const Landing = () => {
             aboutRef={aboutRef}
             reviewRef={reviewRef}
           />
-          {/* ss */}
-        </div>
+          {/* ss 
+        </div> */}
         <div
           className="nxl:sborder-4 border-black border-double p-2 h-[100vh] min-h-[404px] w3-animate-opacity"
           data-aos="zoom-in"
